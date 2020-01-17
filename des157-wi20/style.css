@@ -1,0 +1,71 @@
+html {
+    font-family: "Helvetica";
+    color: #FFF;
+}
+
+#page {
+    width: 50%;
+    max-width: 1200px;
+    min-width: 800px;
+    margin: auto;
+}
+
+#mySketch {
+    width: 800px;
+    height: 250px;
+    background-image: url(images/gdimp.jpg);
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-weight: 100;
+    margin-top: 0px;
+}
+
+main h2 {
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    font-family: Helvetica;
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer {
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(177deg, #312eac, #d72653);
+background-size: 400% 400%;
+
+-webkit-animation: OGBackground 11s ease infinite;
+-moz-animation: OGBackground 11s ease infinite;
+animation: OGBackground 11s ease infinite;
+
+@-webkit-keyframes OGBackground {
+    0%{background-position:44% 0%}
+    50%{background-position:57% 100%}
+    100%{background-position:44% 0%}
+}
+@-moz-keyframes OGBackground {
+    0%{background-position:44% 0%}
+    50%{background-position:57% 100%}
+    100%{background-position:44% 0%}
+}
+@keyframes OGBackground {
+    0%{background-position:44% 0%}
+    50%{background-position:57% 100%}
+    100%{background-position:44% 0%}
+}
+}
