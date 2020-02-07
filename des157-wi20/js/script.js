@@ -7,7 +7,7 @@ function setup() {
   }
   
   function draw() {
-    if(mousePressed) {
+    if(mouseIsPressed) {
       fill(0);
     } else {
       fill(random(255), random(255), random(255), random(255));
