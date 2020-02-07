@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Experimentation</title>
+</head>
+<body>
+    <script>
+
+        var age = prompt("How old are you?");
+        var status = prompt("And how are you doing?");
+        var reactions = ["Damn, that's crazy.", "I'm sorry to hear that.", "Wow, that's awesome!"];
+
+        function getRandomInt(min, max){
+            var rand = Math.floor(Math.random() * (max-min) + min);
+            return rand;
+        }
+
+        function react(years, day, react){
+            var statusCheck = parseInt(age);
+            if (statusCheck){
+                console.log(`Oh, you're ${years} and doing ${day}? \n ${react}`);
+            } else {
+                console.log("Please enter a valid age...");
+            }
+        }
+
+        react(age, status, reactions[getRandomInt(1,3)]);
+
+    </script>
+</body>
+</html>
