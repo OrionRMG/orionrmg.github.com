@@ -1,0 +1,68 @@
+body {
+    background-color: lightgrey;
+}
+
+#docEdit {
+    width: 100%;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+img {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#docEdit h2 {
+    font-family: "Arial";
+    font-weight: 800;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+
+#textedit {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url(images/textEditBar.png);
+    background-size: contain;
+}
+
+#editor {
+    width: 60%;
+    height: 11in;
+    margin: auto;
+    background-color: #ffffff;
+    border-style: outset;
+    border-top: 2px;
+    border-color: white;
+}
+
+.typeArea {
+    width: 80%;
+    margin: auto;
+}
+
+#header {
+    padding-top: 1px;
+}
+
+#editor {
+    font-family: Arial;
+}
+
+#storyBox p {
+    line-height: 1.4em;
+}
+
+label, input {
+    display: block;;
+}
+
+input {
+    margin-bottom: 15px;;
+}
+
+.red {
+    color: red;
+}
