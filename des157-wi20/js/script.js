@@ -13,5 +13,5 @@ function setup() {
       fill(255, 255, 255, random(255));
     }
     var rectSize = random(200);
-    rect(mouseX, mouseY, rectSize, rectSize *2);
+    rect(mouseX-(rectSize/2), mouseY-(rectSize/2), rectSize+random(100), rectSize+random(100));
   }
