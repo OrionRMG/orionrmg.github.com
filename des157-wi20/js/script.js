@@ -8,10 +8,10 @@ function setup() {
   
   function draw() {
     if(mouseIsPressed) {
-      fill(0);
-    } else {
       fill(random(255), random(255), random(255), random(255));
+    } else {
+      fill(255, 255, 255, random(255));
     }
-    var circSize = random(200);
-    ellipse(mouseX, mouseY, circSize, circSize);
+    var rectSize = random(200);
+    rect(mouseX, mouseY, rectSize, rectSize *2);
   }
