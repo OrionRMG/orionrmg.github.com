@@ -1,0 +1,82 @@
+html {
+    background-color: cornsilk;
+    font-family: 'Roboto';
+    color: #fff;
+}
+
+#page {
+    width: 60%;
+    margin: auto;
+}
+
+#headBag {
+    margin: auto;
+}
+
+#bag {
+    margin-top: 60px;
+    text-align: center;
+}
+
+#clickArea {
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Lacquer';
+    text-align: center;
+    color: #000;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.item {
+    display: block;
+}
+
+#items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#books, #laptop, #headphones {
+    transition: all .5s;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.modal-content {
+    background-color: darksalmon;
+    margin: 15% auto;
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.close {
+    float: right;
+}
+
+.close:hover {
+    color: #ededed;
+}
+
+footer, footer a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    margin: 5% auto;
+}
