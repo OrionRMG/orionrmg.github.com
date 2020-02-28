@@ -30,11 +30,6 @@ main h2 {
 }
 
 main {
-    display: flex;
-    justify-content: space-between;
-}
-
-div {
     width: 50%;
     margin: auto;
 }
@@ -42,6 +37,15 @@ div {
 img {
     display: block;
     margin: auto;
+}
+
+#sketches {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sketch {
+    width: 47%;
 }
 
 ul {
