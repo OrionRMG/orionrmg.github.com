@@ -13,16 +13,35 @@ html {
     height: auto;    
   }​
 
-#page {
+.myPage {
     width: 50%;
-    max-width: 1200px;
-    min-width: 800px;
     margin: auto;
 }
 
 h1 {
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+#sheet {
+    background-color: #FFF;
+    width: 50%;
+    margin: auto;
+    border: 2px;
+    border-color: black;
+}
+
+#content {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.7em;
+    text-indent: 50px;
+    margin: 0px 60px;
+    padding: 35px 0px;
+}
+
+.no-indent {
+    text-indent: 0px;
 }
 
 footer a {
