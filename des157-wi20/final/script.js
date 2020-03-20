@@ -13,23 +13,14 @@ window.onload=function(){
     function activate(c){
         c.getAttribute("src").replace("0", "1");
     }
-
-    controls.forEach(this.addEventListener("click", function(e){
-        if(controlIndex != controls.indexOf(e.target)){
-            controls.forEach(deactivate(e.target));
-            activate(e.target);
-        }
-
-    }));
     
-
     controls[1].addEventListener("click", function(){
         if(controlIndex != 1){
             controls[1].src = "images/lineS1.png";
         }
     });
 
-    var canvas = new fabric.Canvas('can');
+    const canvas = new fabric.Canvas('can');
     canvas.isDrawingMode = true;
     canvas.freeDrawingBrush.width = 5;
     canvas.freeDrawingBrush.color = "#000";
